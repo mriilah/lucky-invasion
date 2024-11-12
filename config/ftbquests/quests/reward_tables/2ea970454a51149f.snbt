@@ -1,0 +1,12 @@
+{
+	id: "2EA970454A51149F"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "lucky:elefire_lucky_block" }
+		{ item: "lucky:eleice_lucky_block" }
+		{ item: "lucky:elewind_lucky_block" }
+		{ item: "lucky:elergy_lucky_block" }
+	]
+	title: "{ftbquests.loot_table.title1}"
+}

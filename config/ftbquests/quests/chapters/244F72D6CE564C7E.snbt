@@ -1,0 +1,1335 @@
+{
+	autofocus_id: "47659F69771AAE88"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "244F72D6CE564C7E"
+	group: "7E80DA01FF9543AE"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:red_bed"
+	id: "244F72D6CE564C7E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{ftbquests.chapter.244F72D6CE564C7E.quest1.description1}"
+				""
+				"{ftbquests.chapter.244F72D6CE564C7E.quest1.description2}"
+			]
+			id: "47659F69771AAE88"
+			rewards: [{
+				count: 3
+				id: "4AFA80B5CC1A00AF"
+				item: {
+					Count: 1
+					id: "telepass:gold_telepass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5E396586149B7439"
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest1.task.title1}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14D352B919D26BA4"]
+			description: ["{ftbquests.chapter.244F72D6CE564C7E.quest2.description1}"]
+			id: "62AC4A1B4936E80B"
+			tasks: [{
+				id: "56220E9E8BE70528"
+				item: {
+					Count: 1
+					id: "telepass:diamond_telepass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EAF3D40402825FE"]
+			id: "366183B17B54A049"
+			rewards: [{
+				id: "77CD12B745784368"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "1AB6E96342A006C1"
+				item: { Count: 5, id: "yakurum:water_ball" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["366183B17B54A049"]
+			id: "68689D8E3CAF7E99"
+			tasks: [{
+				id: "5E3BAB90D9F13A06"
+				item: "yakurum:water_relic"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5ED9A2B845F1A876"]
+			id: "649EE3EE9BF694C7"
+			tasks: [{
+				id: "33FA8FC020A6B9E6"
+				item: "yakurum:crystal_gem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2EAF3D40402825FE"]
+			id: "52D716130BB578AB"
+			tasks: [{
+				id: "5A2C2ECE2D228B67"
+				item: "yakurum:aquamarine"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EAF3D40402825FE"]
+			id: "05F773D954CD6E96"
+			tasks: [{
+				id: "1967CC73F94800FB"
+				item: "yakurum:triton_scale_shard"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["05F773D954CD6E96"]
+			id: "22B65EB03C9AF96F"
+			tasks: [{
+				id: "139E1409AF31D440"
+				item: "yakurum:triton_scale"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["22B65EB03C9AF96F"]
+			id: "1C24CD888C2AFB0C"
+			rewards: [{
+				id: "7DFD2E377C3CE374"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B76C7B2C822DBBA"
+				item: {
+					Count: 1
+					id: "yakurum:triton_trident"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5ED9A2B845F1A876"]
+			id: "6509BDD680DDF549"
+			tasks: [{
+				id: "6AC0A80E4D44732C"
+				item: "yakurum:pearl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ED9A2B845F1A876"]
+			id: "031A90B880D7FF7D"
+			tasks: [{
+				id: "5A72E082EC771A24"
+				item: "yakurum:coral_crystal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5ED9A2B845F1A876"]
+			id: "6A1B254852A7FDEF"
+			tasks: [
+				{
+					id: "72FB61980F1A4E0D"
+					item: "yakurum:guardian_eye"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "444D3ACD87CAA711"
+					item: { Count: 2, id: "yakurum:guardian_thorn" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"649EE3EE9BF694C7"
+				"031A90B880D7FF7D"
+			]
+			id: "176CCCBF2B925F05"
+			tasks: [{
+				id: "72145E308A9E52C4"
+				item: "yakurum:coral_crystal_gem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["649EE3EE9BF694C7"]
+			id: "2B3C49E04CB55D72"
+			tasks: [{
+				id: "39779A8BB3370CF4"
+				item: "yakurum:prismarine_gem"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6A1B254852A7FDEF"
+				"2B3C49E04CB55D72"
+			]
+			id: "64D28FE3A58B41B9"
+			tasks: [{
+				id: "06E7EC5E426B44FC"
+				item: "yakurum:guardian_rune"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5ED9A2B845F1A876"]
+			id: "5D77C61AB0741D55"
+			tasks: [{
+				id: "2D287ECEEF54875D"
+				item: "yakurum:bitominous_coal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"64D28FE3A58B41B9"
+				"5D77C61AB0741D55"
+			]
+			id: "25FD0198DD228DD2"
+			tasks: [{
+				id: "23BCA68543EDD1B5"
+				item: "yakurum:robot_guardian_off"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2EAF3D40402825FE"]
+			id: "331F266B77850506"
+			tasks: [{
+				id: "04B0D02FDF346BDB"
+				item: "yakurum:ice_ball"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["25FD0198DD228DD2"]
+			id: "40B8830CF64F6DAC"
+			rewards: [{
+				count: 3
+				id: "3BAE37C02874A771"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B79C8B86D2A3A24"
+				item: "yakurum:robot_guardian_on"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"331F266B77850506"
+				"6509BDD680DDF549"
+			]
+			id: "108481DFF3BDFDBF"
+			tasks: [{
+				id: "70C0AD14C7D73FD8"
+				item: "yakurum:frostarce_pearl"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6509BDD680DDF549"]
+			id: "1B9078DA25A57D59"
+			rewards: [{
+				count: 2
+				id: "49D4E5D22FBB57F2"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B7AE945362A3DA1"
+					item: {
+						Count: 1
+						id: "yakurum:pearl_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38AE154C7C064364"
+					item: {
+						Count: 1
+						id: "yakurum:pearl_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09CC28D11467A7E8"
+					item: {
+						Count: 1
+						id: "yakurum:pearl_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C95519D2B35B325"
+					item: {
+						Count: 1
+						id: "yakurum:pearl_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["108481DFF3BDFDBF"]
+			id: "09D0141B586C37B8"
+			rewards: [{
+				count: 5
+				id: "00FC267E029A1F08"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1C2A23F3E91854CE"
+					item: {
+						Count: 1
+						id: "yakurum:frostarce_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BEE50FBB89DE83F"
+					item: {
+						Count: 1
+						id: "yakurum:frostarce_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1477F268F444B3DC"
+					item: {
+						Count: 1
+						id: "yakurum:frostarce_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "741D8FE5DC489A50"
+					item: {
+						Count: 1
+						id: "yakurum:frostarce_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["176CCCBF2B925F05"]
+			id: "23291483A45884EB"
+			rewards: [{
+				count: 5
+				id: "5B2D7CB5CCC09317"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1D9F2B441C6B824A"
+					item: {
+						Count: 1
+						id: "yakurum:coral_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "484DE469AFCEB49F"
+					item: {
+						Count: 1
+						id: "yakurum:coral_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3756321C01BE822A"
+					item: {
+						Count: 1
+						id: "yakurum:coral_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F63D57E880C56AC"
+					item: {
+						Count: 1
+						id: "yakurum:coral_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B3C49E04CB55D72"]
+			id: "67FF829D34750612"
+			rewards: [{
+				count: 5
+				id: "22EF3F57A3086D11"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "672DA3D8028B3331"
+					item: {
+						Count: 1
+						id: "yakurum:prismarine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "304726317377B7AF"
+					item: {
+						Count: 1
+						id: "yakurum:prismarine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F1038066CC8F1FA"
+					item: {
+						Count: 1
+						id: "yakurum:prismarine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "201C53178EAFFF31"
+					item: {
+						Count: 1
+						id: "yakurum:prismarine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["64D28FE3A58B41B9"]
+			id: "4A4EBB4FD69E3E00"
+			rewards: [{
+				count: 5
+				id: "50106BB602F70956"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "05646A70B843A3D5"
+					item: {
+						Count: 1
+						id: "yakurum:guardian_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "385AFE1DBDC74C73"
+					item: {
+						Count: 1
+						id: "yakurum:guardian_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A3496D417E17C91"
+					item: {
+						Count: 1
+						id: "yakurum:guardian_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "117311EA68377309"
+					item: {
+						Count: 1
+						id: "yakurum:guardian_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["649EE3EE9BF694C7"]
+			id: "12650DEDBD985DB3"
+			rewards: [{
+				id: "3E6206D55405251E"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5FA1C9A8C52BBD6F"
+					item: {
+						Count: 1
+						id: "yakurum:crystal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6858AEA72659C039"
+					item: {
+						Count: 1
+						id: "yakurum:crystal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "303113FF08E219B9"
+					item: {
+						Count: 1
+						id: "yakurum:crystal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2576108A7E8B16AB"
+					item: {
+						Count: 1
+						id: "yakurum:crystal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["52D716130BB578AB"]
+			id: "5DD79A6E5120D2FC"
+			rewards: [{
+				count: 5
+				id: "4C95EE8E233E656B"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1BC8CF3C02F37CBA"
+					item: {
+						Count: 1
+						id: "yakurum:aquamarine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E580A4228BAB520"
+					item: {
+						Count: 1
+						id: "yakurum:aquamarine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11D2ECC44EFD87C4"
+					item: {
+						Count: 1
+						id: "yakurum:aquamarine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A9D2CD038C9921F"
+					item: {
+						Count: 1
+						id: "yakurum:aquamarine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68689D8E3CAF7E99"]
+			id: "2C4C2D6F84320EF0"
+			tasks: [{
+				id: "157A3B94E0CF8904"
+				item: "yakurum:water_essence"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C4C2D6F84320EF0"]
+			id: "43A7DB9DA485DF24"
+			tasks: [{
+				id: "1FBE084AE0656F60"
+				item: "yakurum:water_diamond"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["43A7DB9DA485DF24"]
+			id: "15870A308DB5754C"
+			rewards: [{
+				count: 3
+				id: "2756A440F716EEA0"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4A79F97D28C68A95"
+					item: {
+						Count: 1
+						id: "yakurum:water_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "yakurum:maritime_restoration"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F5D00A5F5A9FDCB"
+					item: {
+						Count: 1
+						id: "yakurum:water_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "yakurum:maritime_restoration"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "788F4DEBA0353B4E"
+					item: {
+						Count: 1
+						id: "yakurum:water_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "yakurum:maritime_restoration"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "318EA0B6F17D03B6"
+					item: {
+						Count: 1
+						id: "yakurum:water_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "yakurum:maritime_restoration"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["214010504B5C6237"]
+			id: "02D8AAC65024C216"
+			tasks: [{
+				id: "3FDB51AB48C7182E"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["02D8AAC65024C216"]
+			id: "37E9D6D3E5611EF9"
+			rewards: [{
+				id: "7FD965DB7525242A"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19EA72CC363702C6"
+				item: {
+					Count: 1
+					id: "yakurum:emerald_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47659F69771AAE88"]
+			id: "2EAF3D40402825FE"
+			tasks: [{
+				id: "4C59D883F76DAD8D"
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest33.task.title1}"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47659F69771AAE88"]
+			id: "5ED9A2B845F1A876"
+			tasks: [{
+				id: "796D4AFE03566ED4"
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest34.task.title1}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EAF3D40402825FE"]
+			id: "5AA66D046585F6E7"
+			tasks: [{
+				id: "528197C48D7A27AD"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EF0DA339D844345"]
+			id: "475C9664112DE75F"
+			rewards: [{
+				id: "36C178FF886B6959"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7734CF1658CC2099"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "waystones:waystones"
+					}
+				}
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest36.task.title1}"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5AA66D046585F6E7"]
+			id: "7EF0DA339D844345"
+			tasks: [{
+				id: "7A5AB04C69E4C852"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50008EA2A0D5794F"]
+			id: "783575CD020F66B0"
+			tasks: [{
+				id: "37ECBDEA01436BCC"
+				item: "l2backpack:ender_pocket"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1376BFE88F5D965C"]
+			id: "19F3508264F3C52E"
+			tasks: [{
+				icon: "super_block_world:toadstone_bricks"
+				id: "6C97D7271DAC8B3C"
+				structure: "super_block_world:brick_fortress_overworld"
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest39.task.title1}"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19F3508264F3C52E"]
+			id: "7CC0A89978C6666B"
+			rewards: [{
+				count: 2
+				id: "55E151CD9D7B858F"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "super_block_world:boom_boom"
+				id: "6868E6DC49A92CD2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7CC0A89978C6666B"]
+			description: ["{ftbquests.chapter.244F72D6CE564C7E.quest41.description1}"]
+			id: "50C48EC5A65EE4D2"
+			tasks: [{
+				id: "038AE4B0D3AC652B"
+				item: "super_block_world:power_star"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"02D8AAC65024C216"
+				"43A7DB9DA485DF24"
+			]
+			id: "307B1633AABDA662"
+			rewards: [{
+				count: 2
+				id: "2C24BA5EAC1EEA33"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6384033CE5BC46E6"
+				item: {
+					Count: 1
+					id: "yakurum:water_shield"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "yakurum:maritime_restoration"
+								lvl: 1s
+							}
+							{
+								id: "yakurum:aquatic_aspect"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47659F69771AAE88"]
+			id: "214010504B5C6237"
+			tasks: [{
+				id: "29165CD73918A3DA"
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest43.task.title1}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["214010504B5C6237"]
+			id: "50008EA2A0D5794F"
+			tasks: [{
+				id: "3A5596558F767E97"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "l2backpack:backpacks"
+					}
+				}
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest44.task.title1}"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["783575CD020F66B0"]
+			id: "349AFB67A7E6763D"
+			tasks: [{
+				id: "75E6221587AA9E44"
+				item: {
+					Count: 1
+					id: "l2backpack:armor_bag"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["783575CD020F66B0"]
+			id: "7D785E34100FA045"
+			tasks: [{
+				id: "78D776A561BA585D"
+				item: {
+					Count: 1
+					id: "l2backpack:book_bag"
+					tag: {
+						BlockEntityTag: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["214010504B5C6237"]
+			id: "48AF41A50B73591A"
+			tasks: [{
+				id: "2043C5E370C4FB15"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "comforts:sleeping_bags"
+					}
+				}
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest47.task.title1}"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AA66D046585F6E7"]
+			id: "14D352B919D26BA4"
+			tasks: [{
+				id: "069DE594DFD0EF63"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AA66D046585F6E7"]
+			id: "394F215BCA380303"
+			tasks: [{
+				id: "7251BB8B45F1F6C3"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"14D352B919D26BA4"
+				"3D8C6545C5E20DBE"
+			]
+			id: "1840D641B8BF8DD2"
+			tasks: [{
+				id: "36C28E5DCDA2224A"
+				item: "endertrigon:dragon_horn"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["214010504B5C6237"]
+			id: "73B84A7F998644B2"
+			rewards: [{
+				id: "260D1FCFEC0F4E97"
+				item: {
+					Count: 1
+					id: "tacz:ammo_box"
+					tag: {
+						Level: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "646834BEE7B7546F"
+				item: "tacz:gun_smith_table"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["214010504B5C6237"]
+			id: "7AB2E1B517D0E90B"
+			tasks: [
+				{
+					id: "3E9DF534476A9350"
+					item: "storagenetwork:master"
+					type: "item"
+				}
+				{
+					id: "4D3038B24946CBBF"
+					item: "storagenetwork:storage_kabel"
+					type: "item"
+				}
+				{
+					id: "4205887D700BC99E"
+					item: "storagenetwork:request"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7AB2E1B517D0E90B"]
+			id: "2B53055276CFF85B"
+			tasks: [{
+				id: "428EC9C08A588A6C"
+				item: "storagenetwork:crafting_remote"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["47659F69771AAE88"]
+			id: "1376BFE88F5D965C"
+			tasks: [{
+				id: "1552264760760CF7"
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest54.task.title1}"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["214010504B5C6237"]
+			id: "434BF726705A5B44"
+			tasks: [{
+				id: "27A4262BAC990774"
+				item: {
+					Count: 1
+					id: "fuze_relics:grapplin_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["214010504B5C6237"]
+			id: "503068C5F7BB1E90"
+			tasks: [{
+				id: "32E74441835D4499"
+				item: "fuze_relics:harry_potdfleur"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["503068C5F7BB1E90"]
+			id: "060F9E61EC051C44"
+			rewards: [{
+				id: "7ADA5D6F64DE3804"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5BD0B0D04FC29850"
+					item: "fuze_relics:magic_beetroot"
+					type: "item"
+				}
+				{
+					id: "576B9627C076A249"
+					item: "fuze_relics:magic_carrot"
+					type: "item"
+				}
+				{
+					id: "1843562D4A32F032"
+					item: "fuze_relics:magic_potato"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1376BFE88F5D965C"]
+			id: "25283847FBDE8629"
+			tasks: [{
+				id: "188E60B10FEA0AE3"
+				structure: "minecraft:ancient_city"
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest58.task.title1}"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1376BFE88F5D965C"]
+			icon: "minecraft:end_portal_frame"
+			id: "53718124272F4B17"
+			tasks: [{
+				icon: "minecraft:end_portal_frame"
+				id: "10661EE23C4C41F5"
+				observe_type: 0
+				timer: 30L
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest59.task.title1}"
+				to_observe: "minecraft:end_portal_frame"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AA66D046585F6E7"]
+			id: "50E78903D74DB300"
+			tasks: [{
+				id: "4C5F57CD9FE2FE7C"
+				item: {
+					Count: 1
+					id: "fuze_relics:nether_portal_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1376BFE88F5D965C"]
+			id: "1F067FC434CE1A14"
+			tasks: [{
+				id: "12440E9E82F161EA"
+				structure: "yakurum:pirate_shipwreck"
+				title: "{ftbquests.chapter.244F72D6CE564C7E.quest61.task.title1}"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2EAF3D40402825FE"]
+			id: "423F0D27D5DB56AE"
+			tasks: [{
+				id: "5C54A1E86D30B0C8"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["423F0D27D5DB56AE"]
+			id: "7330E47E2ADED4B6"
+			rewards: [{
+				id: "2D3ADC27D155EDA3"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03F653B62235D4A8"
+				item: {
+					Count: 1
+					id: "fuze_relics:pulsion_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "{ftbquests.chapter.244F72D6CE564C7E.title}"
+}

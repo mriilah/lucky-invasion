@@ -1,0 +1,60 @@
+{
+	id: "3AF9C74DB558B004"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_chestplate"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_leggings"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_boots"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+	]
+	title: "{ftbquests.loot_table.title6}"
+}

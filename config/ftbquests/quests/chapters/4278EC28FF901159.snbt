@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4278EC28FF901159"
+	group: "092B0FDFBC420A44"
+	icon: "minecraft:map"
+	id: "4278EC28FF901159"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "39B319A6BC7A7657"
+			rewards: [{
+				id: "5D9D764E2C849775"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "yakurum:kraken_spawn_block"
+				id: "1D9431998B451F36"
+				observe_type: 0
+				timer: 30L
+				to_observe: "yakurum:kraken_spawn_block"
+				type: "observation"
+			}]
+			title: "{ftbquests.chapter.4278EC28FF901159.quest1.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "757B81AC0E9AE1A7"
+			rewards: [{
+				id: "43FD8088790C8CE2"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "fuze_relics:lucky_blockling_render"
+				id: "25C5ABCA9078B2D5"
+				observe_type: 0
+				timer: 30L
+				title: "{ftbquests.chapter.4278EC28FF901159.quest2.task.title1}"
+				to_observe: "fuze_relics:lucky_blockling"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.4278EC28FF901159.title}"
+}

@@ -1,0 +1,24 @@
+{
+	id: "62957FBD6B5F9074"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			auto: "invisible"
+			command: "/improvedmobs difficulty player @p add -0.5"
+			elevate_perms: true
+			silent: true
+			title: "-0.5"
+			type: "command"
+		}
+		{
+			auto: "invisible"
+			command: "/improvedmobs difficulty player @p add -1"
+			elevate_perms: true
+			silent: true
+			title: "-1"
+			type: "command"
+		}
+	]
+	title: "{ftbquests.loot_table.title3}"
+}

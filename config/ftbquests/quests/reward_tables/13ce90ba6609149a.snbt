@@ -1,0 +1,26 @@
+{
+	id: "13CE90BA6609149A"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mutantsbuff:upgraded_hulk_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "mutantsbuff:charged_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "{ftbquests.loot_table.title5}"
+}

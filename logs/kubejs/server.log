@@ -1,0 +1,19 @@
+[21:15:05] [INIT] KubeJS 2001.6.5-build.14; MC 2001 forge
+[21:15:05] [INIT] Loaded plugins:
+[21:15:05] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[21:15:05] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[21:15:05] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[21:15:05] [INFO] Loaded script server_scripts:player_login.js in 0.002 s
+[21:15:05] [INFO] Loaded script server_scripts:recipes.js in 0.001 s
+[21:15:05] [INFO] Loaded 2/2 KubeJS server scripts in 0.022 s with 0 errors and 0 warnings
+[21:15:05] [INFO] Scripts loaded
+[21:15:05] [INFO] Initializing recipe event...
+[21:15:07] [INFO] Processing recipes...
+[21:15:07] [WARN] Failed to parse recipe 'expandedstorage:obsidian_to_netherite_conversion_kit[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[21:15:07] [WARN] Failed to parse recipe 'mutantsbuff:creeper_shard_plus_ham_2[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[21:15:07] [WARN] Failed to parse recipe 'mutantsbuff:creeper_shard_plus_hammer[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[21:15:07] [WARN] Failed to parse recipe 'mutantsbuff:aadd[minecraft:smithing_transform]'! Falling back to vanilla: Ingredient 'template' can't be empty!
+[21:15:07] [INFO] Found 3983 recipes in 221.2 ms
+[21:15:07] [INFO] Posted recipe events in 30.50 ms
+[21:15:07] [INFO] Added 5 recipes, removed 5 recipes, modified 0 recipes, with 0 failed recipes in 129.3 ms
+[21:15:20] [INFO] Server resource reload complete!

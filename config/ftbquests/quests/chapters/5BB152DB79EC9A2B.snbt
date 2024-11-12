@@ -1,0 +1,52 @@
+{
+	autofocus_id: "167D47E384EE0860"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5BB152DB79EC9A2B"
+	group: "7E80DA01FF9543AE"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:wither_skeleton_skull"
+	id: "5BB152DB79EC9A2B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1376BFE88F5D965C"]
+			id: "167D47E384EE0860"
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "4FBE09B06E73768B"
+				title: "{ftbquests.chapter.5BB152DB79EC9A2B.quest1.task.title1}"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["167D47E384EE0860"]
+			id: "6D1F11118C6DC163"
+			tasks: [{
+				id: "1A1CE6D154A0C409"
+				structure: "minecraft:fortress"
+				title: "{ftbquests.chapter.5BB152DB79EC9A2B.quest2.task.title1}"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["167D47E384EE0860"]
+			id: "0FE62D8FBCA70C24"
+			tasks: [{
+				advancement: "minecraft:nether/explore_nether"
+				criterion: ""
+				id: "0B8AAA2E3CD08CEC"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: "{ftbquests.chapter.5BB152DB79EC9A2B.title}"
+}

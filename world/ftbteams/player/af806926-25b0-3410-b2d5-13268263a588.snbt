@@ -1,0 +1,17 @@
+{
+	id: "af806926-25b0-3410-b2d5-13268263a588"
+	type: "player"
+	player_name: "AmriiCuy"
+	ranks: {
+		af806926-25b0-3410-b2d5-13268263a588: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "AmriiCuy"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59A1"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

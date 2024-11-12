@@ -1,0 +1,20 @@
+{
+  "betterstats.util.stats.statannouncementsystem.first_death_to": "%s 刚刚第一次死于 %s 之手。",
+  "betterstats.api.client.gui.screen.betterstatsconfigscreen.gui_smooth_scroll.tooltip": "启用后，滚动统计面板将“平滑地动画化”。如果您在低端设备上玩游戏，或者通过鼠标滚轮滚动根本不适合您，请禁用此功能。",
+  "betterstats.util.stats.statannouncementsystem.first_death.hc1": "%s 刚刚死了第一次。从好的方面来说，这种情况可能不会再发生了。",
+  "betterstats.api.client.gui.screen.betterstatsconfigscreen.register_commands": "寄存器命令",
+  "betterstats.contributors.title": "贡献者",
+  "betterstats.util.stats.statannouncementsystem.first_mine": "%s 刚刚开采了他们的第一个 %s。",
+  "betterstats.util.stats.statannouncementsystem.custom": "%s 刚刚将其“%s”统计值增加至 %s。",
+  "betterstats.api.client.gui.screen.betterstatsconfigscreen.trust_all_servers_bss_net.tooltip": "当这个模组安装在服务器上时，它提供了更多的功能。 “betterstats”网络协议是“betterstats”服务器与“betterstats”客户端通信的方式。启用此功能后，客户端将自动告诉服务器它已安装“betterstats”（如果适用）。禁用此功能后，您每次加入服务器时都必须自己手动执行此操作。",
+  "betterstats.util.stats.statannouncementsystem.first_kill": "%s 刚刚第一次杀死了 %s。",
+  "betterstats.api.client.gui.stats.panel.statfilterspanel.no_filters_question": "没有过滤器？",
+  "betterstats.util.stats.statannouncementsystem.first_death": "%s 刚刚死了第一次。",
+  "betterstats.client.gui.stats.panel.statstabpanel.seed_sha256": "种子 (SHA-256)",
+  "betterstats.api.client.gui.screen.betterstatsconfigscreen.trust_all_servers_bss_net": "自动切换“betterstats”网络",
+  "betterstats.client.gui.screen.hud.betterstatshudscreen.live_stats_toggle": "切换实时 HUD 统计更新",
+  "betterstats.util.stats.statannouncementsystem.first_craft": "%s 刚刚制作了他们的第一个 %s。",
+  "betterstats.api.client.gui.screen.betterstatsconfigscreen.gui_smooth_scroll": "启用 GUI 平滑滚动",
+  "commands.statistics.query.output": "%s 的 %s 统计值为 %s。",
+  "betterstats.api.client.gui.screen.betterstatsconfigscreen.enable_sas": "启用统计公告系统"
+}

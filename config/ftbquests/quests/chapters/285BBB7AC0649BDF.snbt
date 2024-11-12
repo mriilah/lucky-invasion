@@ -1,0 +1,719 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "285BBB7AC0649BDF"
+	group: "092B0FDFBC420A44"
+	icon: "minecraft:zombie_head"
+	id: "285BBB7AC0649BDF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7D4DA993C9E0F7B7"
+			rewards: [{
+				id: "0CBB368681CD5EC4"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0E1E28C0F14DE1DE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "138DF220B7F3C915"
+			rewards: [{
+				id: "6C73F22030F53325"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "6C5A7D64AAAF4D28"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "6FC618C1BE78A76C"
+			rewards: [{
+				id: "288799736F67A931"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "03F8B2CC54C4CCD0"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "5CD5A4F663C7070D"
+			rewards: [{
+				id: "62A78E2429DF0D48"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "17CB9DBF6E5EA00C"
+				type: "kill"
+				value: 10L
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "011B0C2817CA6368"
+			rewards: [{
+				id: "37290F554097FFC9"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "021B372EA2E8F5A4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "11CDEF3697988BB2"
+			rewards: [{
+				id: "4B6BC230554D4C48"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:cave_spider"
+				id: "08D6C72008A2AFA1"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39B319A6BC7A7657"]
+			id: "29654CED552F1F47"
+			rewards: [{
+				count: 3
+				id: "6DC67724B3192076"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "yakurum:kraken"
+				id: "5CB695C1FF3E4D7D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			id: "4C7A4D8F637FB761"
+			rewards: [{
+				count: 3
+				id: "3E83D1E65880568A"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "yakurum:poseidon"
+				id: "7B4CCF723B56329C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			id: "75B447B1D9810175"
+			rewards: [{
+				count: 2
+				id: "292573094F9B39ED"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "yakurum:king_triton"
+				id: "51C53B96DBE7195D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			id: "2E86216ED630F48E"
+			rewards: [{
+				count: 5
+				id: "0CEAD6F9ABEF5030"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:damp"
+				id: "62E64F646D1D9679"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "149DB8E2CFD646EB"
+			rewards: [{
+				id: "678AD417429DB92E"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "7E7248CF253F45E1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "58E898739BB1711F"
+			rewards: [{
+				id: "3CD93DDAAAFDCA86"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "07D26D4143314539"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "5751CD712ECDA497"
+			rewards: [{
+				id: "17E57B18E427AD23"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "744DAB395000621D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "5F402316BC1DEF6C"
+			rewards: [{
+				count: 2
+				id: "116211C020682CF3"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:ancient_guardian"
+				id: "30A04BB37760C66F"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "16CE73E750D55CE6"
+			rewards: [{
+				count: 2
+				id: "7B12977D6FEB4BEE"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:creeper_guardian"
+				id: "1C217343EC24E646"
+				type: "kill"
+				value: 5L
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "2B48C249B59471B1"
+			rewards: [{
+				count: 2
+				id: "311FBD321DB45A31"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:ender_guardian"
+				id: "24A87B35AFA2E04D"
+				type: "kill"
+				value: 5L
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "16E8A9491E4A205D"
+			rewards: [{
+				count: 2
+				id: "6C55B5A497C6ABCE"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:flying_guardian"
+				id: "7B7C2F69666FD437"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "23FBEFB597837B66"
+			rewards: [{
+				count: 2
+				id: "2FFC94AC00C7522D"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:frozen_guardian"
+				id: "124DBE728D2C3EE6"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			id: "4290397A02C6FA42"
+			rewards: [{
+				count: 2
+				id: "65DF6F298E7C3592"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:infernal_guardian"
+				id: "442F3BFB7155D309"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			id: "7BEED359189913FF"
+			rewards: [{
+				count: 2
+				id: "624AF091359ADAF7"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:mini_guardian"
+				id: "6DF5A63F5D611549"
+				type: "kill"
+				value: 5L
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "2D9FAB087FEB0BB9"
+			rewards: [{
+				count: 2
+				id: "3C77235859433C53"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:quick_guardian"
+				id: "05DC2DC3B0C415E4"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "6307EAC34418516E"
+			rewards: [{
+				count: 2
+				id: "17468082A5460A0A"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:shiny_guardian"
+				id: "7E73BB1907E63855"
+				type: "kill"
+				value: 5L
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "1BEAF79DA17407F5"
+			rewards: [{
+				count: 2
+				id: "3DB878F5412B2D38"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:skeleton_guardian"
+				id: "3831AF535ED090B3"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "76D31C24AB2FEBBD"
+			rewards: [{
+				count: 2
+				id: "443A9FB77229B1EC"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:wither_guardian"
+				id: "76132A441109BC60"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "4497DC11D2E19F68"
+			rewards: [{
+				count: 2
+				id: "243536456D2E007E"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:wither_skeleton_guardian"
+				id: "456221A2DED6A39B"
+				type: "kill"
+				value: 5L
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			id: "16E34F0AE99BAA63"
+			rewards: [{
+				count: 2
+				id: "47D392F079B53BE5"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:zombie_guardian"
+				id: "42CAE5B87AE8104D"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "68985BC28975AD6C"
+			rewards: [{
+				count: 5
+				id: "0FBF9B2BF56D22F3"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:biped_guardian"
+				id: "12CA45D7130D9A08"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "2BFE19CF1141016F"
+			rewards: [{
+				id: "1DAAFA2BCD606F28"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "fuze_relics:burger_boss"
+				id: "57FD00F94C7618F4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "325E1F2A98668FBD"
+			rewards: [{
+				id: "11F30EF85D68D56C"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				entity: "fuze_relics:giant_squid"
+				id: "45B65A6899DA975A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "3C03324280BBE2A5"
+			rewards: [{
+				count: 5
+				id: "23057D07EE43CCE7"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:triton"
+				id: "42DCC5D1EBB6D2E0"
+				type: "kill"
+				value: 20L
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "118B969DE2BED200"
+			rewards: [{
+				count: 8
+				id: "63C331F937CB324E"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:water_master"
+				id: "62FFFB678996ED5D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "1B258079B65BA5C3"
+			rewards: [{
+				count: 8
+				id: "22B4B0C2EF4AAA65"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:water_shooter"
+				id: "4D12F27C8784EDD9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			id: "01FC16F492A44923"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "5B30C1B1D37557DE"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "51BBD38828ABBA13"
+			rewards: [{
+				id: "44573EF1F7584476"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:vindicator"
+				id: "0A369468CFF73D59"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "22921192A4C66057"
+			rewards: [{
+				id: "093721270CA2BCDC"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:drowned_villager"
+				id: "4175AF2F95DB4C11"
+				type: "kill"
+				value: 10L
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "62026F2F4ADF5245"
+			rewards: [{
+				id: "67F0D1938FE1F649"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "yakurum:sunken_skeleton"
+				id: "152A250A714CD285"
+				type: "kill"
+				value: 10L
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "599C3BE91B68476E"
+			rewards: [{
+				count: 3
+				id: "0259F0D6A3060F7C"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "66A4D49AF8247077"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "67988BAE73344C6A"
+			rewards: [{
+				id: "67C7F598A38A199A"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:pillager"
+				id: "2669260B2A5D7497"
+				type: "kill"
+				value: 10L
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "2F1E147E78F8879B"
+			rewards: [{
+				count: 3
+				id: "219D92438D2C5B77"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "053EF256CFED8D93"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "02B2E16FD5D4B4E4"
+			tasks: [{
+				entity: "mutantmonsters:mutant_zombie"
+				id: "74DE14B0F7A07C27"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "351C35E01DD6863C"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				id: "3BDBF222F00AB9D7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "57A61CEAB2A2C543"
+			tasks: [{
+				entity: "mutantmonsters:mutant_creeper"
+				id: "1F0809BE4E0610ED"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "47D51579DB007C55"
+			rewards: [{
+				id: "28AFF6505072F549"
+				item: {
+					Count: 1
+					id: "mutantmonsters:endersoul_hand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mutantsbuff:invul"
+				id: "7BC190C0E9CA2FB8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+	]
+	title: "{ftbquests.chapter.285BBB7AC0649BDF.title}"
+}

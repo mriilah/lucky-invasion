@@ -1,0 +1,12 @@
+{
+	id: "22CA696D3AF885CC"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 5, item: "super_block_world:purple_star_bit" }
+		{ count: 5, item: "super_block_world:blue_star_bit" }
+		{ count: 5, item: "super_block_world:red_star_bit" }
+		{ count: 5, item: "super_block_world:yellow_star_bit" }
+	]
+	title: "{ftbquests.loot_table.title4}"
+}

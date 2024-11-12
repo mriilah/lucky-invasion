@@ -1,0 +1,56 @@
+{
+	autofocus_id: "747A8CE647D7C5E1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0"
+	group: "7E80DA01FF9543AE"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:dragon_head"
+	id: "2CDBFD1EAA047F9E"
+	images: [{
+		height: 3.0d
+		image: "endertrigon:textures/gui/config/title/title.png"
+		rotation: 0.0d
+		width: 9.36d
+		x: 0.0d
+		y: -2.5d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["53718124272F4B17"]
+			description: ["{ftbquests.chapter.0.quest1.description1}"]
+			id: "747A8CE647D7C5E1"
+			shape: "rsquare"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "45D89B6FE18768E7"
+				title: "{ftbquests.chapter.0.quest1.task.title1}"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["747A8CE647D7C5E1"]
+			id: "3D8C6545C5E20DBE"
+			rewards: [{
+				count: 10
+				id: "6BF09B00C2C355C2"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "62B2509AE6C0ED24"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "{ftbquests.chapter.0.title}"
+}

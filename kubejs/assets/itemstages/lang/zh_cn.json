@@ -1,0 +1,15 @@
+{
+  "tooltip.itemstages.hidden_name": "不熟悉的物品",
+  "tooltip.itemstages.item.description": "该物品需要阶段[%s]",
+  "message.itemstages.drop": "您丢弃了%s.",
+  "message.itemstages.mine": "您不知道如何使用%s进行挖矿.",
+  "message.itemstages.attack": "您不知道如何使用%s进行攻击.",
+  "message.itemstages.use": "您不知道如何使用%s.",
+  "message.itemstages.pickup": "您不能拾取%s.",
+  "tooltip.itemstages.debug.drop": "- 此物品将从物品栏中丢弃.",
+  "tooltip.itemstages.debug.pickup": "- 此物品将不能拾取.",
+  "tooltip.itemstages.debug.use": "- 此物品不能用于方块或实体.",
+  "tooltip.itemstages.debug.attack": "- 此物品不能作为武器使用.",
+  "tooltip.itemstages.debug.jei": "- 此物品将会在JEI隐藏.",
+  "itemstages.hidden_name": "不熟悉的物品"
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "lucky:items/elewind_lucky_sword"
+    }
+}

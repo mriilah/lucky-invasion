@@ -1,0 +1,2 @@
+>minecraft:the_nether
+type=block,ID=lucky:fire_lucky_block@chance=30

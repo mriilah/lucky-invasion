@@ -1,0 +1,145 @@
+{
+	autofocus_id: "68AA1C99BBE72DD5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3CB241BA5FB30DBF"
+	group: "7E80DA01FF9543AE"
+	hide_quest_until_deps_visible: true
+	icon: "super_block_world:power_star"
+	id: "3CB241BA5FB30DBF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B5F69337F44B2FB"]
+			description: ["{ftbquests.chapter.3CB241BA5FB30DBF.quest1.description1}"]
+			id: "1290B271A77E74DE"
+			rewards: [{
+				id: "37DE7665DA82D512"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1562735BF1250055"
+				item: "super_block_world:shy_guy_mask"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B5F69337F44B2FB"]
+			id: "5AB0181F0F39D531"
+			rewards: [{
+				id: "629528A34CE8E89E"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BA7E67329C5750C"
+				item: "super_block_world:subcon_thread"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"39EB457FF75B62BC"
+				"5AB0181F0F39D531"
+			]
+			description: ["{ftbquests.chapter.3CB241BA5FB30DBF.quest3.description1}"]
+			id: "39E2355BF10158DD"
+			rewards: [{
+				id: "653AC9F0C100D621"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "465EC639A833F101"
+				item: "super_block_world:warp_link"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39DE673BE9708A73"]
+			id: "39EB457FF75B62BC"
+			rewards: [{
+				id: "133360C9C647234A"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "119ECBE8661A0CC7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "super_block_world:star_bits"
+					}
+				}
+				title: "{ftbquests.chapter.3CB241BA5FB30DBF.quest4.task.title1}"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68AA1C99BBE72DD5"]
+			id: "39DE673BE9708A73"
+			rewards: [{
+				id: "17F5CC29F3431566"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "super_block_world:octoomba"
+				id: "6F160630C709B3E8"
+				type: "kill"
+				value: 30L
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68AA1C99BBE72DD5"]
+			id: "4B5F69337F44B2FB"
+			rewards: [{
+				id: "2CE43FEF1A57FB58"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "super_block_world:shy_guy"
+				id: "78B3F6972D57F367"
+				type: "kill"
+				value: 10L
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["50C48EC5A65EE4D2"]
+			description: ["{ftbquests.chapter.3CB241BA5FB30DBF.quest7.description1}"]
+			id: "68AA1C99BBE72DD5"
+			rewards: [{
+				id: "26BE132F0D423058"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				dimension: "super_block_world:mushroom_kingdom"
+				id: "238B6508EE601C12"
+				title: "{ftbquests.chapter.3CB241BA5FB30DBF.quest7.task.title1}"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "{ftbquests.chapter.3CB241BA5FB30DBF.title}"
+}

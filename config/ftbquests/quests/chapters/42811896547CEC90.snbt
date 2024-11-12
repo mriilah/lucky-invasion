@@ -1,0 +1,606 @@
+{
+	autofocus_id: "3C901E0D5CF676A7"
+	consume_items: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_repeatable_quest: true
+	disable_toast: true
+	filename: "42811896547CEC90"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:emerald"
+	id: "42811896547CEC90"
+	images: [
+		{
+			height: 5.0d
+			image: "minecraft:block/red_shulker_box"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/yellow_shulker_box"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/lime_shulker_box"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/magenta_shulker_box"
+			rotation: 0.0d
+			width: 5.0d
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			description: ["{ftbquests.chapter.42811896547CEC90.quest1.description1}"]
+			id: "3C901E0D5CF676A7"
+			shape: "rsquare"
+			tasks: [{
+				id: "22423231CBCC28EC"
+				title: "{ftbquests.chapter.42811896547CEC90.quest1.task.title1}"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D8C6545C5E20DBE"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "lucky:lucky_world_invasion_lucky_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7C9D3524C66DCC5D"
+			rewards: [{
+				id: "27ABAAD55E1CBBF0"
+				item: {
+					Count: 1
+					id: "lucky:lucky_world_invasion_lucky_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:vanishing_curse"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F1440DB3BB08F03"
+					item: {
+						Count: 1
+						id: "lucky:lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F681E120EEEDD51"
+					item: {
+						Count: 1
+						id: "lucky:desert_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E60DDCFAF83D3B0"
+					item: {
+						Count: 1
+						id: "lucky:elemental_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40FC504A064B6E64"
+					item: {
+						Count: 1
+						id: "lucky:amongus_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E2DCAADA464CC7B"
+					item: {
+						Count: 1
+						id: "lucky:elergy_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00C9484850C38777"
+					item: {
+						Count: 1
+						id: "lucky:fire_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24173C530A27CFFD"
+					item: {
+						Count: 1
+						id: "lucky:elewind_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B09B8095CE420F6"
+					item: {
+						Count: 1
+						id: "lucky:pink_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24E843605FE7A767"
+					item: {
+						Count: 1
+						id: "lucky:summer_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35592FA8BA54DC9E"
+					item: {
+						Count: 1
+						id: "lucky:elefire_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "696AF9BD017BC9BD"
+					item: {
+						Count: 1
+						id: "lucky:eleice_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FBECF17530EDCC6"
+					item: {
+						Count: 1
+						id: "lucky:morbius_lucky_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3C1845B9891B59D7"
+					item: "super_block_world:star_coin"
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.42811896547CEC90.quest2.title}"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			description: ["{ftbquests.chapter.42811896547CEC90.quest3.description1}"]
+			disable_toast: true
+			icon: "minecraft:zombie_head"
+			id: "66A0A937AD765C24"
+			rewards: [{
+				auto: "no_toast"
+				id: "2534209EDE8A41E3"
+				table_id: 7103724438773796980L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4A927C57A801AE65"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.42811896547CEC90.quest3.title}"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D8C6545C5E20DBE"]
+			disable_toast: true
+			icon: "endertrigon:baby_dragon_egg"
+			id: "3E93CAB807759D45"
+			rewards: [{
+				id: "4AECD6DF9B85A1C0"
+				item: "endertrigon:baby_dragon_egg"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "480B36B1EDC91089"
+					item: "quark:dragon_scale"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4195254EC68A6901"
+					item: { Count: 3, id: "super_block_world:star_coin" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.42811896547CEC90.quest4.title}"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.42811896547CEC90.quest5.description1}"
+				"{ftbquests.chapter.42811896547CEC90.quest5.description2}"
+			]
+			icon: "lucky:lucky_block"
+			id: "2F9C9D082ED24A14"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/improvedmobs difficulty player @p add 1"
+					elevate_perms: true
+					id: "2EE545E26DFF1CD8"
+					title: "{ftbquests.chapter.42811896547CEC90.quest5.reward.title1}"
+					type: "command"
+				}
+				{
+					id: "672313D6FBFBE2FF"
+					item: "lucky:lucky_block"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.42811896547CEC90.quest5.subtitle}"
+			tasks: [{
+				id: "2B68D5C184CDC4BA"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.42811896547CEC90.quest5.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60CE7D2F782A00D6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E9AC2960E068E00"
+				table_id: 4249646859969671172L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4F7BF60435E71247"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.42811896547CEC90.quest6.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "19B5171632C08B31"
+			rewards: [{
+				id: "410962527187DF5B"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "255553D6DDCF0702"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			id: "792EC0F8D5BC3F1B"
+			rewards: [{
+				id: "128C0493BCD0E773"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37B6B3F2F13B6D7E"
+				item: "quark:dragon_scale"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			id: "1BDF8D78DCFAE4E8"
+			rewards: [{
+				count: 3
+				id: "429FB03759FAAB53"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "748207F004134A73"
+				item: "minecraft:dragon_head"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.42811896547CEC90.quest10.description1}"
+				"{ftbquests.chapter.42811896547CEC90.quest10.description2}"
+			]
+			icon: "lucky:lucky_block"
+			id: "455ABFEB52DFA8C5"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/improvedmobs difficulty player @p add 5"
+					elevate_perms: true
+					id: "3D92B4E3B1C71C48"
+					title: "{ftbquests.chapter.42811896547CEC90.quest10.reward.title1}"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "2A7B7AE2A4B46ACC"
+					item: "lucky:lucky_block"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.42811896547CEC90.quest10.subtitle}"
+			tasks: [{
+				id: "63ED1C3BB8894F6F"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.42811896547CEC90.quest10.title}"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"{ftbquests.chapter.42811896547CEC90.quest11.description1}"
+				"{ftbquests.chapter.42811896547CEC90.quest11.description2}"
+			]
+			icon: "lucky:lucky_block"
+			id: "46FC8B8A0635F61D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/improvedmobs difficulty player @p add 10"
+					elevate_perms: true
+					id: "7B6ABC3924DE61AA"
+					title: "{ftbquests.chapter.42811896547CEC90.quest11.reward.title1}"
+					type: "command"
+				}
+				{
+					count: 10
+					id: "240A2ABBC4B17E70"
+					item: "lucky:lucky_block"
+					type: "item"
+				}
+			]
+			subtitle: "{ftbquests.chapter.42811896547CEC90.quest11.subtitle}"
+			tasks: [{
+				id: "1BCA4509E8B8498B"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.42811896547CEC90.quest11.title}"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			icon: "minecraft:gunpowder"
+			id: "75AD36045ABE0136"
+			rewards: [{
+				count: 9
+				id: "24BCBE7590087728"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A843A348EBC6028"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			title: "{ftbquests.chapter.42811896547CEC90.quest12.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "75CB7ADCDA0DBEE3"
+			rewards: [{
+				count: 4
+				id: "68A7160171C62F2D"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 20L
+					id: "773DFB61CB05E94E"
+					item: { Count: 20, id: "super_block_world:red_star_bit" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "330BF841B1B0DD6B"
+					item: { Count: 20, id: "super_block_world:yellow_star_bit" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "41F76781ACBC4D12"
+					item: { Count: 20, id: "super_block_world:blue_star_bit" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "3E308F56C8CBAA76"
+					item: { Count: 20, id: "super_block_world:purple_star_bit" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "2835951D2BB448F0"
+			rewards: [{
+				id: "4625C3629F1103E1"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "019402991561A74E"
+				item: { Count: 5, id: "super_block_world:bronze_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sharpness"
+						lvl: 10
+					}]
+				}
+			}
+			id: "45AB915D44E01643"
+			rewards: [{
+				id: "3F792C4D30950955"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 10
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "5C7190B22B41750C"
+					item: {
+						Count: 2
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:sharpness"
+								lvl: 6
+							}]
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "49FB33917478665B"
+					item: { Count: 5, id: "super_block_world:star_coin" }
+					type: "item"
+				}
+			]
+			title: "{ftbquests.chapter.42811896547CEC90.quest15.title}"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			id: "34FACBE4433669CF"
+			rewards: [{
+				id: "6468651880E5D995"
+				item: "super_block_world:star_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48453DBAC1F95E10"
+				item: "lucky:lucky_world_invasion_lucky_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "08548CF07EFFA88B"
+			rewards: [{
+				count: 5
+				id: "615B16BAF940C58C"
+				item: "super_block_world:coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2782A68C8E5A802F"
+				item: "super_block_world:power_star"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+	title: "{ftbquests.chapter.42811896547CEC90.title}"
+}
